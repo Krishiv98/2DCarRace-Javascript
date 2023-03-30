@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+ Filename:    theRace.css
+ Author:      Krishiv Soni (cst140)
+ Course:      CWEB 190 (Internet Programming/Web Applications 1)
+ Instructor:  Michael Grzesina
+ Date: 24/02/2022
+ Purpose:     Stylesheet for theRace.html
+ */
+html{
+
+    background: url("../images/Road.jpg") center center scroll repeat;
+    background-size: auto 370%;
+}
+
+#TopBlock{
+    background-color: lightslategray;
+}
+
+/*Styles for the finish line*/
+.verticalLine {
+    border-left: 15px dashed white;
+    height: 1200px;
+    position: absolute;
+    left: 1550px;
+    margin-left: -3px;
+    top: 180px;
+}
+#imgHere{
+    display: block;
+    position: relative;
+}
+button{
+    font-size: larger;
+    width: 150px;
+    height: 100px;
+}
